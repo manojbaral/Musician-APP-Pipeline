@@ -1,0 +1,26 @@
+{
+  "name": "node-js-musician-app",
+  "version": "1.0.0",
+  "description": "react aws pipeline for node js",
+  "main": "app.js",
+  "scripts": {
+    "test": "jest",
+    "start": "nodemon app.js",
+    "start-dev": "nodemon app.js"
+  },
+  "author": "Manoj Baral",
+  "license": "ISC",
+  "devDependencies": {
+    "jest": "^26.6.3",
+    "maxios": "^1.0.4",
+    "mocha": "^8.2.1",
+    "nodemon": "^2.0.6",
+    "supertest": "^6.0.1"
+  },
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "winston": "^3.3.3",
+    "yup": "^0.31.0"
+  }
+}
